@@ -57,7 +57,7 @@ The above code defines the conversation graph, laying out the sequence in which 
 
 ### Looping Through the Conversation
 
-The simulation loop pattern presented here addresses the issue of recursion depth limits when looping through conversation cycles in LangGraph. Recursive loops that include a 'should\_continue' condition and run for over 20 iterations can hit the recursion depth limit, making them unsuitable for extended use. A better approach is to use an explicit iterative loop structure. In agent-based simulations, we can simplify the execution cycle into a straightforward loop, repeatedly calling the conversation graph in a cycle. This avoids recursion and prevents issues related to recursion depth limits or requiring predefined exit conditions.
+The simulation loop pattern presented here addresses the issue of recursion depth limits when looping through conversation cycles in LangGraph. Recursive loops that include a 'should\_continue' condition and run for over 20 iterations can hit the recursion depth limit, making them unsuitable for extended use. In context of agent-based simulations, we can simplify the execution cycle into a straightforward loop, repeatedly calling the conversation graph in a cycle. 
 
 ```python
 if __name__ == "__main__":
