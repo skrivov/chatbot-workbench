@@ -1,6 +1,6 @@
 langchain
 langgraph
-openai
+langchain-openai
 pydantic
 python-dotenv
-typing_extensions
+typing-extensions
