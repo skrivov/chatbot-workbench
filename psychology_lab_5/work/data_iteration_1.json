@@ -1,0 +1,122 @@
+[
+  {
+    "girlfriend_message": "I just had a really tough day at work, and I feel so overwhelmed.",
+    "expected_strategy": "1"
+  },
+  {
+    "girlfriend_message": "You're the best part of my day. I love you so much!",
+    "expected_strategy": "2"
+  },
+  {
+    "girlfriend_message": "I'm worried about the presentation tomorrow. What if I mess up?",
+    "expected_strategy": "3"
+  },
+  {
+    "girlfriend_message": "I need to talk about something that's been on my mind lately.",
+    "expected_strategy": "4"
+  },
+  {
+    "girlfriend_message": "Wouldn't it be fun to go on a little road trip this weekend?",
+    "expected_strategy": "5"
+  },
+  {
+    "girlfriend_message": "I feel like no one understands how I'm feeling right now.",
+    "expected_strategy": "6"
+  },
+  {
+    "girlfriend_message": "Despite everything, I think things will get better soon.",
+    "expected_strategy": "7"
+  },
+  {
+    "girlfriend_message": "Do you know any good resources for dealing with stress?",
+    "expected_strategy": "8"
+  },
+  {
+    "girlfriend_message": "Sometimes I feel like I'm not good enough.",
+    "expected_strategy": "9"
+  },
+  {
+    "girlfriend_message": "So you're saying that I'm overreacting?",
+    "expected_strategy": "10"
+  },
+  {
+    "girlfriend_message": "What do you think about this new idea I have for my project?",
+    "expected_strategy": "11"
+  },
+  {
+    "girlfriend_message": "I need a good laugh today. Everything seems so serious.",
+    "expected_strategy": "12"
+  },
+  {
+    "girlfriend_message": "I'm struggling to keep up with everything. Can you help me out?",
+    "expected_strategy": "13"
+  },
+  {
+    "girlfriend_message": "I remember when I faced a similar situation back in college.",
+    "expected_strategy": "14"
+  },
+  {
+    "girlfriend_message": "I finally finished that book I've been reading!",
+    "expected_strategy": "15"
+  },
+  {
+    "girlfriend_message": "Where do you see us in five years?",
+    "expected_strategy": "16"
+  },
+  {
+    "girlfriend_message": "Thank you for always being there for me.",
+    "expected_strategy": "17"
+  },
+  {
+    "girlfriend_message": "I need some time alone to think things through.",
+    "expected_strategy": "18"
+  },
+  {
+    "girlfriend_message": "I'm feeling really anxious right now.",
+    "expected_strategy": "19"
+  },
+  {
+    "girlfriend_message": "I'm sorry for snapping at you earlier. Can we talk about it?",
+    "expected_strategy": "20"
+  },
+  {
+    "girlfriend_message": "I feel like I've been so distant lately, and I don't know why.",
+    "expected_strategy": "1"
+  },
+  {
+    "girlfriend_message": "You're always so thoughtful and caring. I appreciate you.",
+    "expected_strategy": "2"
+  },
+  {
+    "girlfriend_message": "I have a big exam coming up, and I'm really nervous.",
+    "expected_strategy": "3"
+  },
+  {
+    "girlfriend_message": "Can we have a serious conversation about our future?",
+    "expected_strategy": "4"
+  },
+  {
+    "girlfriend_message": "Let's plan a movie night this Friday!",
+    "expected_strategy": "5"
+  },
+  {
+    "girlfriend_message": "I feel like I'm always the one reaching out to my friends.",
+    "expected_strategy": "6"
+  },
+  {
+    "girlfriend_message": "I'm trying to stay positive despite the challenges.",
+    "expected_strategy": "7"
+  },
+  {
+    "girlfriend_message": "Do you have any advice on how to handle this situation?",
+    "expected_strategy": "8"
+  },
+  {
+    "girlfriend_message": "I feel like I'm not living up to my potential.",
+    "expected_strategy": "9"
+  },
+  {
+    "girlfriend_message": "Are you saying that I should just let it go?",
+    "expected_strategy": "10"
+  }
+]

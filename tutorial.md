@@ -1,53 +1,8 @@
-# Chatbot Workbench  
+# Chatbot Workbench: Developing and Testing Chatbots using LangGraph and Agent Based Simulation
 
-This repository provides a tutorial on testing chatbots using agent-based simulations.
+## Introduction
 
-**Key Features:**
-
-**LangGraph Framework:** A LangChain-based tool designed for graph-based workflows, making it simple to create and manage conversational agents.
-
-**Agent-Based Simulations:** Simulate chatbot behavior in dynamic environments to evaluate efficiency and correctness.
-
-## Getting Started
-
-### Prerequisites
-
-- Python 3.9+
-- OpenAI API Key (for accessing GPT-4 or other models)
-
-### Installation
-
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/skrivov/chatbot-workbench.git
-   
-   cd coalitions
-   ```
-2. **Create a virtual environment and activate it:**
-   ```bash
-    python3 -m venv venv
-    source venv/bin/activate  
-    
-    # On Windows, use `venv\Scripts\activate`
-   
-   ```
-3. **Install the required packages:**
-   ```bash
-   pip install -r requirements.txt
-   ```
-   
-4. **Set up your OpenAI API key:** 
- Create a .env file in the project root and add your OpenAI API key:
-
-   ```bash
-    OPENAI_API_KEY=your_api_key_here
-   ```
-
-
-
-## Introduction:  Developing and Testing Chatbots using LangGraph and Agent Based Simulation
-
-Testing chatbots can be challenging, especially when attempting to accurately simulate how the bot will perform in real-world scenarios. This tutorial introduces an innovative approach: using agent-based simulations to test chatbot behavior. By creating controlled environments in which chatbot agents interact, we can observe and analyze the efficiency and correctness of the responses produced.  We will use  LangGraph, a LangChain based  framework  designed to work with graph-based workflows, making it easier to create and manage conversational agents and create Agent Based Simulations.
+Testing chatbots can be challenging, especially when attempting to accurately simulate how the bot will perform in real-world scenarios. This tutorial introduces an innovative approach: using agent-based simulations to test chatbot behavior. By creating controlled environments in which chatbot agents interact, we can observe and analyze the efficiency and correctness of the responses produced.  We will use  LangGraph, a LangChain based  framework  designed to work with graph-based workflows, making it easier to create and manage conversational agents and create Agent Based Simulations. 
 
 The first two sections of this tutorial introduce the key concepts essential for understanding the LangGraph architecture. Having struggled to learn LangGraph myself, I have made every effort to identify and consolidate the most crucial ideas in one place. By mastering these key concepts, you will begin to think in LangGraph. This will enable you to easily envision and design your own LangGraph applications.
 
@@ -367,4 +322,3 @@ The program interacts with several files to facilitate these simulations, includ
 The program captures agent interactions in a structured conversation log, allowing for a detailed analysis of the strategies used and their effects on the emotional dynamics of the conversation. The content of the log is saved in the `output.json` file. By running multiple iterations of these simulated dialogues, the program collects valuable data that can be used to refine and enhance the chatbot's emotional intelligence, ultimately improving its response quality.
 
 I hope this tutorial helps you design, develop, and test your own emotionally intelligent chatbots.
-

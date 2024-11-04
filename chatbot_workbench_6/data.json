@@ -1,0 +1,42 @@
+[
+    {
+        "girlfriend_message": "I just got promoted at work! I'm so excited but also a bit nervous about the new responsibilities.",
+        "expected_strategy": "1"
+    },
+    {
+        "girlfriend_message": "I'm really sorry I forgot our anniversary. I feel terrible about it and want to make it up to you.",
+        "expected_strategy": "8"
+    },
+    {
+        "girlfriend_message": "I completed my first marathon today! It was exhausting but incredibly rewarding.",
+        "expected_strategy": "1"
+    },
+    {
+        "girlfriend_message": "I'm struggling to decide between two job offers. One offers a higher salary, and the other has better growth opportunities. What should I do?",
+        "expected_strategy": "4"
+    },
+    {
+        "girlfriend_message": "I've been feeling really overwhelmed with all the deadlines at work. I don't know how to keep up.",
+        "expected_strategy": "7"
+    },
+    {
+        "girlfriend_message": "My grandmother passed away last night, and I'm not sure how to cope with the grief.",
+        "expected_strategy": "2"
+    },
+    {
+        "girlfriend_message": "I've been feeling lonely lately, even when I'm surrounded by people.",
+        "expected_strategy": "9"
+    },
+    {
+        "girlfriend_message": "I tried baking a cake today, but it turned out looking like a disaster. At least it tasted okay!",
+        "expected_strategy": "6"
+    },
+    {
+        "girlfriend_message": "I'm struggling with my coursework and feel like I'm falling behind. It's so frustrating!",
+        "expected_strategy": "3"
+    },
+    {
+        "girlfriend_message": "I can't sleep because of all the stress from school. It's exhausting.",
+        "expected_strategy": "7"
+    }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "girlfriend_message": "I had such a rough day at work, everything seemed to go wrong.",
+    "expected_strategy": "11"
+  },
+  {
+    "girlfriend_message": "I just got a promotion at work!",
+    "expected_strategy": "5"
+  },
+  {
+    "girlfriend_message": "I'm feeling really anxious about the meeting tomorrow.",
+    "expected_strategy": "19"
+  },
+  {
+    "girlfriend_message": "I miss spending time with you.",
+    "expected_strategy": "8"
+  },
+  {
+    "girlfriend_message": "Thank you for always being there for me.",
+    "expected_strategy": "7"
+  },
+  {
+    "girlfriend_message": "I'm not sure what to do about this issue with my friend.",
+    "expected_strategy": "6"
+  },
+  {
+    "girlfriend_message": "Do you really think I'm capable of handling this project?",
+    "expected_strategy": "3"
+  },
+  {
+    "girlfriend_message": "Remember our trip to the beach last year? That was so fun!",
+    "expected_strategy": "20"
+  },
+  {
+    "girlfriend_message": "I feel like I'm not good enough sometimes.",
+    "expected_strategy": "2"
+  },
+  {
+    "girlfriend_message": "I can't believe I passed the exam!",
+    "expected_strategy": "5"
+  },
+  {
+    "girlfriend_message": "I'm feeling really overwhelmed right now.",
+    "expected_strategy": "11"
+  },
+  {
+    "girlfriend_message": "I love how you always know what to say.",
+    "expected_strategy": "7"
+  },
+  {
+    "girlfriend_message": "It's hard to stay positive with everything going on.",
+    "expected_strategy": "12"
+  },
+  {
+    "girlfriend_message": "Let's plan something fun for the weekend.",
+    "expected_strategy": "16"
+  },
+  {
+    "girlfriend_message": "I feel so alone sometimes.",
+    "expected_strategy": "4"
+  },
+  {
+    "girlfriend_message": "I'm sorry if I've been distant lately.",
+    "expected_strategy": "15"
+  },
+  {
+    "girlfriend_message": "Have you ever felt like you're just not enough?",
+    "expected_strategy": "17"
+  },
+  {
+    "girlfriend_message": "I need some advice on how to handle this situation.",
+    "expected_strategy": "14"
+  },
+  {
+    "girlfriend_message": "Can we talk about what happened yesterday?",
+    "expected_strategy": "18"
+  },
+  {
+    "girlfriend_message": "I feel like I can't catch a break these days.",
+    "expected_strategy": "11"
+  },
+  {
+    "girlfriend_message": "I just want to give up sometimes.",
+    "expected_strategy": "13"
+  },
+  {
+    "girlfriend_message": "I can't stop worrying about the future.",
+    "expected_strategy": "19"
+  },
+  {
+    "girlfriend_message": "Thank you for being such a wonderful partner.",
+    "expected_strategy": "7"
+  },
+  {
+    "girlfriend_message": "We should definitely go hiking again sometime.",
+    "expected_strategy": "16"
+  },
+  {
+    "girlfriend_message": "I feel like I'm always messing things up.",
+    "expected_strategy": "3"
+  },
+  {
+    "girlfriend_message": "I just want to feel appreciated.",
+    "expected_strategy": "7"
+  },
+  {
+    "girlfriend_message": "I was so happy when I got your text this morning.",
+    "expected_strategy": "2"
+  },
+  {
+    "girlfriend_message": "I'm really stressed about this upcoming project.",
+    "expected_strategy": "11"
+  },
+  {
+    "girlfriend_message": "I love reminiscing about our first date.",
+    "expected_strategy": "20"
+  },
+  {
+    "girlfriend_message": "I feel like we're not communicating well lately.",
+    "expected_strategy": "18"
+  }
+]

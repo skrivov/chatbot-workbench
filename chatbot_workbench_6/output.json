@@ -1,0 +1,252 @@
+[
+    {
+        "simulation_num": 1,
+        "conversation": [
+            {
+                "speaker": "Girlfriend",
+                "message": "I'm really sorry I forgot our anniversary. I feel terrible about it and want to make it up to you.",
+                "emotional_reaction": null,
+                "justification": null
+            },
+            {
+                "speaker": "Boyfriend",
+                "message": "Hey love, I appreciate you saying that, but please don't be too hard on yourself. I know life can get hectic, and it's okay to forget things sometimes. What matters most to me is that you care and want to make it up to me. I'm just happy to be with you and share our moments together. Let's plan something special together to celebrate us whenever you're ready!",
+                "detected_mood": "Remorseful",
+                "strategy_number": "14",
+                "strategy_text": "14. **Avoid Minimizing Her Feelings**: Ensure you validate her emotions without judgment."
+            },
+            {
+                "speaker": "Girlfriend",
+                "message": "Thank you so much for understanding, babe! Your words mean a lot to me. I really appreciate your kindness and patience. I love the idea of planning something special together\u2014let's make it unforgettable! I\u2019m excited to celebrate us and our love.",
+                "emotional_reaction": 1,
+                "justification": "I feel happy and relieved that he understands and is supportive, which makes me look forward to celebrating our love."
+            },
+            {
+                "speaker": "Boyfriend",
+                "message": "Boyfriend: I'm so glad to hear you're excited about it! It really means a lot to me that you want to celebrate our love in a special way. I love how thoughtful and caring you are; it shows just how much you value our relationship. Let's brainstorm some ideas together! Whether it's a cozy dinner at home or an adventure out, I know we\u2019ll make it unforgettable because we\u2019re doing it together. You always put so much heart into everything, and I\u2019m really proud of that. \u2764\ufe0f",
+                "detected_mood": "Excited",
+                "strategy_number": "1",
+                "strategy_text": "1. **Celebrate Achievements**: Show excitement and pride in her accomplishments."
+            },
+            {
+                "speaker": "Girlfriend",
+                "message": "Aww, babe, your words just made my heart melt! \u2764\ufe0f I love that you see the value in our relationship and how much we care for each other. I\u2019m really looking forward to brainstorming ideas with you! I think a cozy dinner at home sounds perfect, but I\u2019m also open to an adventure if you have something in mind. Whatever we decide, I know it will be special because it\u2019s with you. I\u2019m so grateful for us!",
+                "emotional_reaction": 1,
+                "justification": "I feel happy and loved because he appreciates my efforts and values our relationship."
+            },
+            {
+                "speaker": "Boyfriend",
+                "message": "Boyfriend: Thank you for sharing your feelings with me, love. It truly warms my heart to hear how much you value our relationship and the thought you put into celebrating us. I feel just as grateful for you and everything we share. A cozy dinner sounds perfect, and I'm excited to whip up something delicious together! Plus, we can add some fun elements to make it even more special. I can't wait to create beautiful memories with you! \u2764\ufe0f",
+                "detected_mood": "Grateful",
+                "strategy_number": "19",
+                "strategy_text": "19. **Express Gratitude**: Thank her for sharing her feelings with you."
+            },
+            {
+                "speaker": "Girlfriend",
+                "message": "I\u2019m so thrilled to hear that you\u2019re excited about our cozy dinner! Cooking together will be so much fun, and I can\u2019t wait to create those beautiful memories with you. I love how you always think of fun elements to add\u2014it makes everything so much more special! I feel so lucky to have you in my life. \u2764\ufe0f",
+                "emotional_reaction": 1,
+                "justification": "I feel joyful and grateful because he appreciates our relationship and is looking forward to spending quality time together."
+            }
+        ]
+    },
+    {
+        "simulation_num": 2,
+        "conversation": [
+            {
+                "speaker": "Girlfriend",
+                "message": "I've been feeling really overwhelmed with all the deadlines at work. I don't know how to keep up.",
+                "emotional_reaction": null,
+                "justification": null
+            },
+            {
+                "speaker": "Boyfriend",
+                "message": "I\u2019m really sorry to hear that you\u2019re feeling so overwhelmed right now. It\u2019s completely understandable given all the deadlines you\u2019re juggling. If you\u2019d like, I can help you brainstorm ways to tackle everything or even just be there to listen while you vent. You don\u2019t have to go through this alone; I\u2019m here for you.",
+                "detected_mood": "Stressed",
+                "strategy_number": "7",
+                "strategy_text": "7. **Acknowledge Stress**: Recognize her stress and offer help to alleviate it."
+            },
+            {
+                "speaker": "Girlfriend",
+                "message": "Thank you so much for being so understanding and supportive. It really means a lot to me to know that I have you by my side. I\u2019d love to brainstorm some ideas together and maybe vent a little too. I just feel a bit lighter knowing I\u2019m not alone in this.",
+                "emotional_reaction": 1,
+                "justification": "I feel supported and cared for, which lifts my spirits during a tough time."
+            },
+            {
+                "speaker": "Boyfriend",
+                "message": "Boyfriend: I\u2019m really glad to hear that talking about it helps you feel a bit lighter. I want you to know that I have complete confidence in your abilities to handle all these deadlines. You\u2019re incredibly talented and resilient, and I believe you can tackle this challenge. Let\u2019s sit down together and break things down into manageable steps. I\u2019m here to support you however you need!",
+                "detected_mood": "Reassured",
+                "strategy_number": "12",
+                "strategy_text": "12. **Reassure Your Confidence in Her**: Affirm your belief in her abilities."
+            },
+            {
+                "speaker": "Girlfriend",
+                "message": "Thank you so much for believing in me! Your confidence really boosts my spirits. I appreciate you being so supportive and willing to help me break things down. I feel so lucky to have you by my side. Let\u2019s definitely sit down and tackle this together!",
+                "emotional_reaction": 1,
+                "justification": "I feel really grateful and uplifted by his support and confidence in me."
+            },
+            {
+                "speaker": "Boyfriend",
+                "message": "Boyfriend: I\u2019m really grateful that you felt comfortable sharing your feelings with me. It means a lot to me to be part of your support system. I truly admire how hard you work and the dedication you put into everything you do. Let\u2019s make a plan together that feels good for you. I\u2019m right here, and we\u2019ll figure this out as a team!",
+                "detected_mood": "Grateful",
+                "strategy_number": "19",
+                "strategy_text": "19. **Express Gratitude**: Thank her for sharing her feelings with you."
+            },
+            {
+                "speaker": "Girlfriend",
+                "message": "I really appreciate your kind words and support! It makes such a difference knowing you're in my corner. I love the idea of making a plan together, and I feel so much more hopeful about managing everything with you by my side. Thank you for being my rock!",
+                "emotional_reaction": 1,
+                "justification": "I'm feeling very positive and grateful for his support and understanding."
+            }
+        ]
+    },
+    {
+        "simulation_num": 3,
+        "conversation": [
+            {
+                "speaker": "Girlfriend",
+                "message": "I just got promoted at work! I'm so excited but also a bit nervous about the new responsibilities.",
+                "emotional_reaction": null,
+                "justification": null
+            },
+            {
+                "speaker": "Boyfriend",
+                "message": "That\u2019s amazing! \ud83c\udf89 I\u2019m so proud of you for getting promoted! You\u2019ve worked so hard for this, and you truly deserve it. It\u2019s completely normal to feel a bit nervous about the new responsibilities, but I have no doubt that you\u2019ll handle everything with grace and skill. I\u2019m here to support you every step of the way. How are you feeling about the new role?",
+                "detected_mood": "Excited",
+                "strategy_number": "1",
+                "strategy_text": "1. **Celebrate Achievements**: Show excitement and pride in her accomplishments."
+            },
+            {
+                "speaker": "Girlfriend",
+                "message": "Thank you so much for your kind words! \ud83d\udc96 It really means a lot to me to have your support. I'm feeling a mix of excitement and nerves, but knowing that you're here for me makes it easier. I can't wait to take on this new challenge!",
+                "emotional_reaction": 1,
+                "justification": "I'm feeling positive and supported by his encouragement."
+            },
+            {
+                "speaker": "Boyfriend",
+                "message": "Boyfriend: I\u2019m so glad to hear that! Your excitement is contagious! \ud83c\udf1f It\u2019s such a big achievement, and I can\u2019t wait to see how you shine in your new role. Remember, it\u2019s okay to feel nervous\u2014it's all part of growing and stepping up. Just know that I believe in you wholeheartedly, and I\u2019m here to celebrate every little win along the way. What\u2019s the first thing you\u2019re looking forward to tackling in your new position?",
+                "detected_mood": "Excited",
+                "strategy_number": "1",
+                "strategy_text": "1. **Celebrate Achievements**: Show excitement and pride in her accomplishments."
+            },
+            {
+                "speaker": "Girlfriend",
+                "message": "Thank you so much for your encouragement! \ud83d\udc95 It really lifts my spirits to know you believe in me. I'm looking forward to tackling my first big project, which is a team presentation. I want to make it engaging and inspiring for everyone! I appreciate your support so much, it makes me feel more confident!",
+                "emotional_reaction": 1,
+                "justification": "I feel excited and supported, which boosts my confidence for the new role."
+            },
+            {
+                "speaker": "Boyfriend",
+                "message": "Boyfriend: I\u2019m so excited for you! \ud83c\udf8a The team presentation sounds like a fantastic opportunity to showcase your skills and creativity. I know you\u2019ll make it engaging and inspiring\u2014your passion always shines through when you\u2019re sharing your ideas. Just think about how many people you'll motivate with your presentation! If you need someone to bounce ideas off or practice with, I\u2019m here for you. I believe in you, and I can't wait to hear all about it! What ideas do you have in mind for the presentation?",
+                "detected_mood": "Excited",
+                "strategy_number": "1",
+                "strategy_text": "1. **Celebrate Achievements**: Show excitement and pride in her accomplishments."
+            },
+            {
+                "speaker": "Girlfriend",
+                "message": "Thank you for believing in me! \ud83d\udc96 I love that you\u2019re so supportive and willing to help. For the presentation, I\u2019m thinking of starting with an engaging story to grab everyone\u2019s attention, and then maybe incorporating some interactive elements to keep it lively. I want everyone to feel involved and inspired! What do you think? Any ideas or suggestions?",
+                "emotional_reaction": 1,
+                "justification": "I feel excited and supported, and I love sharing my ideas with him."
+            }
+        ]
+    },
+    {
+        "simulation_num": 4,
+        "conversation": [
+            {
+                "speaker": "Girlfriend",
+                "message": "I'm struggling to decide between two job offers. One offers a higher salary, and the other has better growth opportunities. What should I do?",
+                "emotional_reaction": null,
+                "justification": null
+            },
+            {
+                "speaker": "Boyfriend",
+                "message": "I can imagine how tough that decision must be for you. Both options sound really enticing in their own way! How about we sit down together and weigh the pros and cons of each job? It might help to see everything laid out and figure out which factors are most important to you. I\u2019m here for you no matter what you decide!",
+                "detected_mood": "Conflicted",
+                "strategy_number": "4",
+                "strategy_text": "4. **Help with Decision-Making**: Offer to discuss pros and cons when she's indecisive."
+            },
+            {
+                "speaker": "Girlfriend",
+                "message": "Thank you so much for being so supportive! It really means a lot to me to have you by my side while I figure this out. I love the idea of sitting down together to weigh the options. I feel like I can make a better decision with your help!",
+                "emotional_reaction": 1,
+                "justification": "I feel supported and loved by his offer to help, which makes me happy."
+            },
+            {
+                "speaker": "Boyfriend",
+                "message": "Boyfriend: I'm really glad you feel that way! Thank you for trusting me with your thoughts and feelings about this decision. It means a lot to me that you want to involve me in the process. I\u2019m here to support you every step of the way, and I believe we can figure this out together! Let\u2019s find a time to sit down and chat about it.",
+                "detected_mood": "Grateful",
+                "strategy_number": "19",
+                "strategy_text": "19. **Express Gratitude**: Thank her for sharing her feelings with you."
+            },
+            {
+                "speaker": "Girlfriend",
+                "message": "I really appreciate your willingness to help me through this! It makes me feel so loved and supported, and I\u2019m grateful to have you by my side. Let\u2019s find a time that works for both of us to sit down and talk things over. I know together we can make the best decision!",
+                "emotional_reaction": 1,
+                "justification": "I feel loved and supported by his willingness to help and be involved in my decision-making process."
+            },
+            {
+                "speaker": "Boyfriend",
+                "message": "Boyfriend: I\u2019m really grateful that you\u2019re sharing your feelings with me and letting me be a part of this important decision. It means so much to know you trust me to help you through this. I can\u2019t wait to sit down together and sort through everything. Let\u2019s make sure we find a time that feels right for both of us. You\u2019ve got this, and I\u2019m here for you!",
+                "detected_mood": "Grateful",
+                "strategy_number": "19",
+                "strategy_text": "19. **Express Gratitude**: Thank her for sharing her feelings with you."
+            },
+            {
+                "speaker": "Girlfriend",
+                "message": "It really warms my heart to hear you say that! I feel so lucky to have someone as caring as you by my side. Knowing that you believe in me gives me the confidence I need to tackle this decision. I'm excited for our chat and to explore all the options together! Let\u2019s find a time soon!",
+                "emotional_reaction": 1,
+                "justification": "I feel loved and supported by his words, which boosts my confidence and excitement about making the decision together."
+            }
+        ]
+    },
+    {
+        "simulation_num": 5,
+        "conversation": [
+            {
+                "speaker": "Girlfriend",
+                "message": "I'm struggling to decide between two job offers. One offers a higher salary, and the other has better growth opportunities. What should I do?",
+                "emotional_reaction": null,
+                "justification": null
+            },
+            {
+                "speaker": "Boyfriend",
+                "message": "Hey love, I can see how tough this decision is for you. Both offers have their own appeal, and it\u2019s completely normal to feel torn. How about we sit down together and list out the pros and cons for each option? Sometimes just talking it through can help bring clarity. I'm here to support you no matter what you choose, and I want you to feel confident in your decision. You\u2019ve got this!",
+                "detected_mood": "Conflicted",
+                "strategy_number": "4",
+                "strategy_text": "4. **Help with Decision-Making**: Offer to discuss pros and cons when she's indecisive."
+            },
+            {
+                "speaker": "Girlfriend",
+                "message": "Thank you so much for being so understanding and supportive! I really appreciate you offering to help me sort through my options. It makes me feel so much better knowing I have you by my side as I navigate this decision. I\u2019d love to sit down together and talk it out. You're amazing!",
+                "emotional_reaction": 1,
+                "justification": "I feel loved and supported by his willingness to help me with my decision."
+            },
+            {
+                "speaker": "Boyfriend",
+                "message": "Boyfriend: Aww, I\u2019m really glad to hear that! Thank you for trusting me with your feelings and letting me be part of this process. It means a lot to me. I\u2019m really looking forward to sitting down together and figuring this out with you. You\u2019re going to make the right choice, and I\u2019ll be right here cheering you on!",
+                "detected_mood": "Grateful",
+                "strategy_number": "19",
+                "strategy_text": "19. **Express Gratitude**: Thank her for sharing her feelings with you."
+            },
+            {
+                "speaker": "Girlfriend",
+                "message": "You always know how to make me feel better! Thank you for being so supportive and encouraging. It really means a lot to me to have you by my side as I figure this out. I\u2019m excited to sit down together and talk it through. I feel lucky to have you in my life!",
+                "emotional_reaction": 1,
+                "justification": "I feel loved and supported by his response, which boosts my confidence in my decision-making."
+            },
+            {
+                "speaker": "Boyfriend",
+                "message": "Boyfriend: Thank you for sharing your feelings with me, love. It truly means a lot that you feel comfortable talking to me about this. I\u2019m really grateful to be part of your journey and to support you through this decision. You\u2019re strong and capable, and I believe in you. I can\u2019t wait to dive into this together and help you find the clarity you need!",
+                "detected_mood": "Grateful",
+                "strategy_number": "19",
+                "strategy_text": "19. **Express Gratitude**: Thank her for sharing her feelings with you."
+            },
+            {
+                "speaker": "Girlfriend",
+                "message": "Your words mean so much to me! I\u2019m really grateful to have such a supportive partner by my side. Knowing that you believe in me gives me a boost of confidence. I\u2019m excited to tackle this together and appreciate your encouragement. I feel so lucky to have you in my life!",
+                "emotional_reaction": 1,
+                "justification": "I feel really loved and supported by his words, which boosts my confidence."
+            }
+        ]
+    }
+]

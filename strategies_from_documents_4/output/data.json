@@ -1,0 +1,242 @@
+[
+  {
+    "girlfriend_message": "It's been a difficult couple of weeks.",
+    "expected_strategy": "1"
+  },
+  {
+    "girlfriend_message": "I'm feeling overwhelmed with work.",
+    "expected_strategy": "2"
+  },
+  {
+    "girlfriend_message": "I need a break from all this stress.",
+    "expected_strategy": "3"
+  },
+  {
+    "girlfriend_message": "It's been a difficult couple of weeks.",
+    "expected_strategy": "4"
+  },
+  {
+    "girlfriend_message": "I can see now how difficult this has been.",
+    "expected_strategy": "1"
+  },
+  {
+    "girlfriend_message": "Your feelings are valid.",
+    "expected_strategy": "5"
+  },
+  {
+    "girlfriend_message": "I feel like my efforts go unnoticed.",
+    "expected_strategy": "6"
+  },
+  {
+    "girlfriend_message": "I wish you would support my dreams more.",
+    "expected_strategy": "7"
+  },
+  {
+    "girlfriend_message": "I love surprises that show you care.",
+    "expected_strategy": "8"
+  },
+  {
+    "girlfriend_message": "I'm feeling a bit bored today, not sure what to do.",
+    "expected_strategy": "10"
+  },
+  {
+    "girlfriend_message": "I wish we could do something fun together.",
+    "expected_strategy": "9"
+  },
+  {
+    "girlfriend_message": "Feeling a bit stressed with work, need a pick-me-up.",
+    "expected_strategy": "11"
+  },
+  {
+    "girlfriend_message": "I'm feeling really anxious about my upcoming exam.",
+    "expected_strategy": "2"
+  },
+  {
+    "girlfriend_message": "I'm so stressed out about studying.",
+    "expected_strategy": "3"
+  },
+  {
+    "girlfriend_message": "I can't stop worrying about failing.",
+    "expected_strategy": "2"
+  },
+  {
+    "girlfriend_message": "I miss spending time with you...",
+    "expected_strategy": "13"
+  },
+  {
+    "girlfriend_message": "I wish we could have more quality time together...",
+    "expected_strategy": "14"
+  },
+  {
+    "girlfriend_message": "I feel lonely without you...",
+    "expected_strategy": "13"
+  },
+  {
+    "girlfriend_message": "I'm feeling really down today...",
+    "expected_strategy": "15"
+  },
+  {
+    "girlfriend_message": "I can't stop thinking about what happened...",
+    "expected_strategy": "5"
+  },
+  {
+    "girlfriend_message": "I'm so overwhelmed with everything...",
+    "expected_strategy": "16"
+  },
+  {
+    "girlfriend_message": "It's been a difficult couple of weeks.",
+    "expected_strategy": "4"
+  },
+  {
+    "girlfriend_message": "Not knowing what will happen is really tough.",
+    "expected_strategy": "5"
+  },
+  {
+    "girlfriend_message": "I can see now how difficult this has been.",
+    "expected_strategy": "17"
+  },
+  {
+    "girlfriend_message": "I achieved something amazing today!",
+    "expected_strategy": "18"
+  },
+  {
+    "girlfriend_message": "I can't believe I did it! So proud of myself.",
+    "expected_strategy": "19"
+  },
+  {
+    "girlfriend_message": "I reached a milestone in my goals!",
+    "expected_strategy": "7"
+  },
+  {
+    "girlfriend_message": "She is in a bad mood for no apparent reason.",
+    "expected_strategy": "4"
+  },
+  {
+    "girlfriend_message": "It's been a difficult couple of weeks.",
+    "expected_strategy": "1"
+  },
+  {
+    "girlfriend_message": "It isn't easy to deal with stuff like this.",
+    "expected_strategy": "1"
+  },
+  {
+    "girlfriend_message": "I can't stop thinking about going on a trip!",
+    "expected_strategy": "20"
+  },
+  {
+    "girlfriend_message": "I found this amazing travel destination, and I'm so excited!",
+    "expected_strategy": "21"
+  },
+  {
+    "girlfriend_message": "Do you think we should plan a trip together?",
+    "expected_strategy": "22"
+  },
+  {
+    "girlfriend_message": "I feel like I have so much on my plate right now.",
+    "expected_strategy": "5"
+  },
+  {
+    "girlfriend_message": "I'm really struggling to keep up with everything.",
+    "expected_strategy": "23"
+  },
+  {
+    "girlfriend_message": "I don't know how to handle all these responsibilities.",
+    "expected_strategy": "1"
+  },
+  {
+    "girlfriend_message": "I was really looking forward to our plans, and now they're canceled...",
+    "expected_strategy": "24"
+  },
+  {
+    "girlfriend_message": "I feel disappointed that we can't spend time together as planned.",
+    "expected_strategy": "25"
+  },
+  {
+    "girlfriend_message": "I had something special prepared for our time together, but it's not happening now.",
+    "expected_strategy": "26"
+  },
+  {
+    "girlfriend_message": "I'm thinking of trying out a new hobby, but I'm not sure where to start.",
+    "expected_strategy": "27"
+  },
+  {
+    "girlfriend_message": "I found this interesting hobby I want to explore, but I'm a bit nervous.",
+    "expected_strategy": "28"
+  },
+  {
+    "girlfriend_message": "I'm excited about diving into a new hobby, it's something I've always wanted to try.",
+    "expected_strategy": "29"
+  },
+  {
+    "girlfriend_message": "I can't stop thinking about the memories we've made together.",
+    "expected_strategy": "30"
+  },
+  {
+    "girlfriend_message": "Remember when we went on that spontaneous road trip? It was so much fun!",
+    "expected_strategy": "9"
+  },
+  {
+    "girlfriend_message": "I miss those late-night conversations we used to have.",
+    "expected_strategy": "31"
+  },
+  {
+    "girlfriend_message": "I've been feeling really anxious about my health lately.",
+    "expected_strategy": "4"
+  },
+  {
+    "girlfriend_message": "I'm not sure how to handle this health issue.",
+    "expected_strategy": "32"
+  },
+  {
+    "girlfriend_message": "Do you know any good articles or tips on improving health?",
+    "expected_strategy": "33"
+  },
+  {
+    "girlfriend_message": "I've been thinking a lot about our future together.",
+    "expected_strategy": "35"
+  },
+  {
+    "girlfriend_message": "I have some dreams I want to share with you.",
+    "expected_strategy": "7"
+  },
+  {
+    "girlfriend_message": "I feel like we need to have a serious conversation about where we're headed.",
+    "expected_strategy": "34"
+  },
+  {
+    "girlfriend_message": "I had such a great day today! Everything just feels so perfect.",
+    "expected_strategy": "36"
+  },
+  {
+    "girlfriend_message": "I wish we could just escape for a weekend and relax together.",
+    "expected_strategy": "37"
+  },
+  {
+    "girlfriend_message": "I saw this cute little thing today that reminded me of you.",
+    "expected_strategy": "38"
+  },
+  {
+    "girlfriend_message": "I've been feeling a bit insecure lately...",
+    "expected_strategy": "40"
+  },
+  {
+    "girlfriend_message": "I don't know if I'm good enough for you...",
+    "expected_strategy": "40"
+  },
+  {
+    "girlfriend_message": "I'm worried that you might find someone better than me...",
+    "expected_strategy": "40"
+  },
+  {
+    "girlfriend_message": "I've been thinking a lot about my career choices lately...",
+    "expected_strategy": "39"
+  },
+  {
+    "girlfriend_message": "I'm feeling overwhelmed with all the decisions I have to make...",
+    "expected_strategy": "42"
+  },
+  {
+    "girlfriend_message": "I could really use some relaxation and pampering right now...",
+    "expected_strategy": "43"
+  }
+]

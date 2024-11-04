@@ -1,0 +1,122 @@
+[
+  {
+    "girlfriend_message": "I'm feeling really overwhelmed with work right now.",
+    "expected_strategy": "3"
+  },
+  {
+    "girlfriend_message": "I just got promoted at work!",
+    "expected_strategy": "15"
+  },
+  {
+    "girlfriend_message": "Do you even care about what I'm saying?",
+    "expected_strategy": "1"
+  },
+  {
+    "girlfriend_message": "Let's plan a weekend getaway soon.",
+    "expected_strategy": "5"
+  },
+  {
+    "girlfriend_message": "I'm really sorry for snapping at you earlier.",
+    "expected_strategy": "20"
+  },
+  {
+    "girlfriend_message": "I feel like I'm not good enough sometimes.",
+    "expected_strategy": "7"
+  },
+  {
+    "girlfriend_message": "Can you help me with this decision?",
+    "expected_strategy": "11"
+  },
+  {
+    "girlfriend_message": "I love when we spend Sundays together.",
+    "expected_strategy": "16"
+  },
+  {
+    "girlfriend_message": "I've been feeling anxious about everything lately.",
+    "expected_strategy": "19"
+  },
+  {
+    "girlfriend_message": "Why don't you ever share how you feel with me?",
+    "expected_strategy": "9"
+  },
+  {
+    "girlfriend_message": "Thank you for always being there for me.",
+    "expected_strategy": "17"
+  },
+  {
+    "girlfriend_message": "I just need some time to myself right now.",
+    "expected_strategy": "18"
+  },
+  {
+    "girlfriend_message": "I'm not sure what to do about this situation.",
+    "expected_strategy": "8"
+  },
+  {
+    "girlfriend_message": "Remember that funny thing that happened last week?",
+    "expected_strategy": "12"
+  },
+  {
+    "girlfriend_message": "I appreciate your help with the chores.",
+    "expected_strategy": "17"
+  },
+  {
+    "girlfriend_message": "We should talk about our future together.",
+    "expected_strategy": "16"
+  },
+  {
+    "girlfriend_message": "I feel like you're not listening to me.",
+    "expected_strategy": "10"
+  },
+  {
+    "girlfriend_message": "I did really well on my project!",
+    "expected_strategy": "15"
+  },
+  {
+    "girlfriend_message": "It's been such a stressful day.",
+    "expected_strategy": "3"
+  },
+  {
+    "girlfriend_message": "What do you think about this outfit?",
+    "expected_strategy": "11"
+  },
+  {
+    "girlfriend_message": "I love hearing your stories from work.",
+    "expected_strategy": "14"
+  },
+  {
+    "girlfriend_message": "I'm sorry if I upset you earlier.",
+    "expected_strategy": "20"
+  },
+  {
+    "girlfriend_message": "Can we just relax and watch a movie tonight?",
+    "expected_strategy": "5"
+  },
+  {
+    "girlfriend_message": "I'm so proud of myself for finishing that task.",
+    "expected_strategy": "15"
+  },
+  {
+    "girlfriend_message": "Sometimes I feel like I'm just not enough.",
+    "expected_strategy": "1"
+  },
+  {
+    "girlfriend_message": "I heard about this new place we should try.",
+    "expected_strategy": "5"
+  },
+  {
+    "girlfriend_message": "Do you remember when we first met?",
+    "expected_strategy": "14"
+  },
+  {
+    "girlfriend_message": "I wish things were easier sometimes.",
+    "expected_strategy": "7"
+  },
+  {
+    "girlfriend_message": "I could really use a hug right now.",
+    "expected_strategy": "2"
+  },
+  {
+    "girlfriend_message": "I'm worried about the meeting tomorrow.",
+    "expected_strategy": "3"
+  }
+]
