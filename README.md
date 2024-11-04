@@ -338,7 +338,70 @@ First, the document retrieval step uses document loaders, such as the `WebBaseLo
 
 In the document retrieval step, when a specific problem or prompt is provided, the vector store is queried for similar content. This is achieved by calling the `similarity_search()` method on the vector store, which retrieves the most relevant document chunks based on the problem description. The retrieved chunks are then combined to form a coherent context, which serves as background information for the language model to use during response generation.
 
-The process of generating conversation strategies and mapping them to data entries is accomplished within the `process_problems` function. The main loop goes through the list of problems and processes them in several steps: (1) similarity search and retrival of relevant information, (2) prompt creation, (3) LLM query, and (4) merging the results of LLM calls into a global list of strategies and data entries to ensure consistency and usability of the output. The following is a detailed description of this four-fold process.
+The process of generating conversation strategies and mapping them to data entries is accomplished within the `process_problems` function. 
+
+```python
+# Function to process problems
+async def process_problems(problems: List[str], vector_store, structured_llm_problem):
+    all_strategies = []
+    all_data_entries = []
+    # Global strategy counter
+    strategy_counter = 1  
+    # Mapping from local to global strategy numbers
+    strategy_number_mapping: Dict[str, int] = {}  
+
+    for idx, problem in enumerate(problems):
+        # Perform similarity search
+        retrieved_docs = vector_store.similarity_search(problem, k=3)
+        context = "\n\n".join([doc.page_content for doc in retrieved_docs])
+
+        # Prepare the prompt
+        prompt_template = PromptTemplate(
+            input_variables=["problem", "context"],
+            template="""
+            You are a relationship expert. 
+            Given the following problem:
+            "{problem}"
+            And the following context extracted from articles:
+            "{context}"
+            Using the context, generate 1 to 3 communication strategies, 
+            .........
+
+            """
+        )
+
+        prompt = prompt_template.format(
+            problem=problem,
+            context=context
+        )
+
+        print("Processing problem:", problem)
+        print("Context:", context)
+
+        try:
+            # Generate response from the structured LLM for ProblemResponse
+            assistant_response = await structured_llm_problem.ainvoke(prompt)
+            # assistant_response is an instance of ProblemResponse
+        except ValidationError as e:
+            ..........
+
+        # Adjust strategy numbering and collect strategies
+        for strategy in assistant_response.strategies:
+            # Extract the local strategy number and title
+            ........
+
+        # Adjust expected_strategy in data entries
+        for data_entry in assistant_response.data:
+            .........
+
+        # Clear the mapping for the next problem
+        strategy_number_mapping.clear()
+
+    return all_strategies, all_data_entries
+
+```
+
+The main loop goes through the list of problems and processes them in several steps: (1) similarity search and retrival of relevant information, (2) prompt creation, (3) LLM query, and (4) merging the results of LLM calls into a global list of strategies and data entries to ensure consistency and usability of the output. The following is a detailed description of this four-fold process.
 
 Within the `process_problems` function, we go through a list of problems and process each one as follows: First, we perform a similarity search using the vector store (`vector_store.similarity_search(problem, k=3)`). This retrieves the most relevant document chunks containing context related to the problem. Second, we construct a prompt using `PromptTemplate`, which takes the problem and context as input. The constructed prompt includes both the problem and the relevant information extracted from the documents. In the third step, this prompt is used to invoke the structured language model (`structured_llm_problem.ainvoke(prompt)`). These first three steps demonstrate the concept of retrieval-augmented generation (RAG), where the LLM generates responses based on retrieved context. In our case, the generated response is also formatted to include both conversation strategies and data entries, represented as instances of the `ProblemResponse` model. This approach allows the LLM to produce output in a structured Python format using information stored in our vector database.
 
