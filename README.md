@@ -388,10 +388,15 @@ async def process_problems(problems: List[str], vector_store, structured_llm_pro
         # Adjust strategy numbering and collect strategies
         for strategy in assistant_response.strategies:
             # Extract the local strategy number and title
+            # Map local numbering to global
+            # Merge data to all_strategiess
             ........
 
         # Adjust expected_strategy in data entries
         for data_entry in assistant_response.data:
+            # Extract the local strategy number 
+            # Map local numbering to global
+            # Merge data to all_data_entries
             .........
 
         # Clear the mapping for the next problem
