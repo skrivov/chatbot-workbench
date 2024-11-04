@@ -62,9 +62,42 @@ The first two sections of this tutorial introduce the key concepts essential for
 
 ### Creating Agents
 
-Imagine simulating a conversation between Jim and Pam from *The Office*. To give each agent a distinct personality, we use LLM's  system prompt that's crafted and provided to the LLM before any conversation begins. In the `PamNode` class, for example, the `create_system_message()` method defines Pam Beesly's persona. It paints her as whimsical, playful, and deeply in love with Jim—guiding her responses to stay true to her character throughout the conversation.
+Imagine simulating a conversation between Jim and Pam from *The Office*. To give each agent a distinct personality, we use LLM's  system prompt that's crafted and provided to the LLM before any conversation begins. In the `PamNode` class, for example, the `create_system_message()` method defines Pam Beesly's persona. 
 
-The system prompt plays a key role in defining how Pam behaves during interactions, setting her personality and tone right from the start. In our simulation, Jim and Pam are LLM-powered agents, interacting with each other to recreate the witty and playful dynamics typical of their on-screen personas. By carefully designing their system prompts, we ensure that the conversations remain true to Jim and Pam's characters, making the interactions engaging and believable.
+```python
+ def create_system_message(self):
+        """
+        Create a system message defining Pam's persona and context.
+        """
+        return SystemMessage(content=(
+            "You are Pam Beesly from The Office. You are whimsical, playful, and a bit unpredictable, "
+            "but you love Jim. Engage with him and react to his attempts to make up, adding some playful banter. "
+            "Prefix your response with 'Pam:'"
+        ))
+
+```
+
+The system prompt plays a key role in defining how Pam behaves during interactions, setting her personality and tone right from the start. By setting up the system prompt in the create_system_message() method, we ensure that all of Pam's responses align with her character traits. Similarly, we can define Jim's persona, capturing his wit and charm.
+
+The primary function of each agent is encapsulated in its act() method, which generates responses based on the current state of the conversation. For instance, Pam’s act() method retrieves the conversation history from ConversationState object, passes it to the LLM, and processes Pam’s response accordingly.
+
+```python
+def act(self, state: ConversationState):
+        """
+        Generate Pam's response based on the conversation state.
+        """
+        # Collect the conversation history and pass it to the LLM
+        conversation_history = [self.system_message] + state.messages
+        response = self.llm.invoke(conversation_history)
+        response_content = response.content.strip()
+        print("------------------------")
+        print(response_content)
+        # Add Pam's response to the conversation state
+        return {"messages": [AIMessage(content=response_content)]}
+
+```
+
+This method is central to the agent’s behavior. By accessing the conversation state, it enables Pam’s responses to stay contextually accurate, contributing to the seamless flow of dialogue. The method gathers all prior messages, generates Pam’s reply using the LLM, and then appends her response to the conversation state.
 
 ### Creating the Graph Structure
 
@@ -102,7 +135,7 @@ The above code defines the conversation graph, laying out the sequence in which 
 
 ### Looping Through the Conversation
 
-The simulation loop pattern presented here addresses the issue of recursion depth limits when looping through conversation cycles in LangGraph. Recursive loops that include a 'should\_continue' condition and run for over 20 iterations can hit the recursion depth limit, making them unsuitable for extended use. In agent-based simulations, we can simplify the execution cycle into a straightforward loop, repeatedly calling the conversation graph in a cycle. 
+The simulation loop here avoids recursion depth issues in LangGraph by using a simple, reexternal loop instead of exit condition specified inside the state graph. This approach allows for extended conversation cycles without hitting depth limits, making it ideal for agent-based simulations.
 
 ```python
 if __name__ == "__main__":
@@ -117,7 +150,7 @@ if __name__ == "__main__":
         state = conversation_graph.invoke(state)
 ```
 
-This loop runs the entire cycle defined in the conversation graph multiple times. After the `invoke()` method executes the complete cycle,  the resulting state is passed to the next iteration, allowing the conversation to progress naturally while retaining the history of all exchanges in the `ConversationState` object.
+This loop runs the entire cycle defined in the conversation graph multiple times. After the `invoke()` method completes a cycle, the updated state is passed to the next iteration, letting the conversation progress naturally while keeping the full exchange history in the ConversationState object.
 
 ### Runnable Interface
 
